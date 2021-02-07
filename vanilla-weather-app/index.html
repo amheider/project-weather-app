@@ -40,19 +40,24 @@
                 <div class="col-6">
                     <div class="clearfix">
                         <div class="float-left">
-                            <span class="temperature" id="temperature"></span><span class="units">°C</span>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="sunny_s_cloudy">
+                            <span class="temperature" id="temperature"></span><span class="units">°C | °F</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
                     <ul>
+                        <li>Precipitation: <span id="precipitation"></span>%</li>
                         <li>Humidity: <span id="humidity"></span>%</li>
                         <li>Wind: <span id="wind"></span> km/h</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+        <small>
+          <a href="https://github.com/amheider/project-weather-app"> open-source code</a> by: Alina Heider
+        </small>
+    </div>  
     <script src="src/app.js"></script>
 </body>
 
