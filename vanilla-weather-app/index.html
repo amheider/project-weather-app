@@ -22,40 +22,44 @@
                             id="city-input" class="form-control shadow-sm" />
                     </div>
                     <div class="col-3">
-                        <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm w-100" />
+                        <input type="submit" value="Search" class="search shadow-sm" />
                     </div>
                     <div class="col-3">
-                        <button class="btn btn-success w-100" id="current-location-button">
+                        <button class="current shadow-sm" id="current-location-button">
                             Current
                         </button>
                     </div>
                 </div>
             </form>
             <h1 id="city"></h1>
-            <ul>
-                <li>Last updated: <span id="date"></span></li>
-                <li id="description"></li>
-            </ul>
-            <div class="row">
-                <div class="col-6">
-                    <div class="clearfix weather-temperature">
-                        <img src="" alt="Clear" id="icon" class="float-left" />
-                        <div class="float-left">
-                            <span class="temperature" id="temperature"></span>
-                            <span class="units"> <a href="#" id="celsius-link" class="active"> °C</a> |
-                            <a href="#" id="fahrenheit-link">°F</a></span>
-                        </div>
+                <ul>
+                
+                    <li>Last updated: <span id="date"></span></li>
+                    <li id="description"></li>
+                </ul>
+
+                <div class="row">
+                    <div class="col-10">
+                        <div class="clearfix weather-temperature">
+                            <img src="" alt="Clear" id="icon" class="float-left" />
+                            <div class="float-left">
+                            <strong id="temperature"></strong>
+                                <span class="units"> <a href="#" id="celsius-link" class="active"> °C</a> |
+                                    <a href="#" id="fahrenheit-link">°F</a></span>
+                            </div>
+           
                     </div>
+                
                 </div>
-                <div class="col-6">
+                <div class="col-16">
+                    <br>
                     <ul>
                         <li>Humidity: <span id="humidity"></span>%</li>
                         <li>Wind: <span id="wind"></span> km/h</li>
                     </ul>
                 
-            
-                </div>
                 
+                </div>
             </div>  
             <div class="row weather-forecast" id="forecast"></div>
         </div>

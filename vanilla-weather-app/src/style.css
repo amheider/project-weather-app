@@ -3,23 +3,29 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  text-align: center;
+  font-size: 48px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 ul {
+  text size: 12px;
+  text-align: :left;
   margin: 0;
   padding: 0;
+  margin-top: 10px;
+  margin left: 20px;
+  margin right: 100px;
 }
-
 li {
+  text-align: center;
   list-style: none;
   margin: 0;
   padding: 0;
-
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -45,16 +51,20 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-right: 5px;
+  margin-right: 1px;
   height: 64px;
   width: 64px;
 }
+.weather-temperature{
+  text-align: center;
+  margin-left: 100px;
+}
 
-.weather-temperature {
+.weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
-  line-height: 1;
   font-weight: 400;
+  text-align: right;
 }
 
 .weather-temperature .units {
@@ -101,4 +111,7 @@ li:first-letter {
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+}
+.date {
+  font-size: 5px;
 }
